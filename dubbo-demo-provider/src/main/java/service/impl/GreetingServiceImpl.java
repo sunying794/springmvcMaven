@@ -25,7 +25,7 @@ public class GreetingServiceImpl implements GreetingService {
 	public String hello(@QueryParam("name") String name) {
 		System.out.println("hello Service is calling :-----" + name + "-----!!!!!!!!!!!!!");
 		String greetMessage = "Hello, " + name;
-		return greetMessage;
+		return greetMessage;                
 	}
 
 	/**
