@@ -20,6 +20,7 @@ public class Main {
 //		}
 		
 		System.in.read();
+		System.out.println("fffffffffffffffffffff");
 		System.out.println("结束");
 	}
 	
